@@ -21,4 +21,4 @@
 
 [MIT](LICENSE)
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fedisonlee55%2FMyMoney.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fedisonlee55%2FMyMoney?ref=badge_large)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fedisonlee55%2FMyMoney-Desktop.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fedisonlee55%2FMyMoney-Desktop?ref=badge_large)
