@@ -1,5 +1,5 @@
+<h1 align="center">MyMoney Desktop</h1>
 <p align="center">
-  <h1 align="center">MyMoney Desktop</h1>
   <a href="https://mymoney.edisonlee55.com">
     <img alt="MyMoney" src="https://cdn.edisonlee55.com/resources/mymoney/images/mymoney_467x181.jpg">
   </a>
