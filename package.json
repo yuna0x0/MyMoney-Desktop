@@ -3,6 +3,7 @@
   "version": "1.2.8",
   "description": "A lightweight, simple accounting software with an easy interface and minimal functionality",
   "main": "index.js",
+  "postinstall": "electron-builder install-app-deps",
   "scripts": {
     "start": "electron .",
     "pack": "electron-builder --dir",
@@ -39,8 +40,8 @@
   "homepage": "https://mymoney.edisonlee55.com",
   "dependencies": {},
   "devDependencies": {
-    "electron": "^2.0.0",
-    "electron-builder": "^20.11.1"
+    "electron": "^2.0.1",
+    "electron-builder": "^20.13.4"
   },
   "build": {
     "appId": "com.edisonlee55.mymoney",

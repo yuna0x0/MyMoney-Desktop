@@ -486,7 +486,7 @@ electron-builder-lib@~20.13.2:
     semver "^5.5.0"
     temp-file "^3.1.2"
 
-electron-builder@^20.11.1:
+electron-builder@^20.13.4:
   version "20.13.4"
   resolved "https://registry.yarnpkg.com/electron-builder/-/electron-builder-20.13.4.tgz#fad23bcf9db1923785ef6bdbcf286a8780453240"
   dependencies:
@@ -556,9 +556,9 @@ electron-publish@20.13.2:
     lazy-val "^1.0.3"
     mime "^2.3.1"
 
-electron@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-2.0.0.tgz#e95dc7f3a089a52b8c2a52c7c9e1024db0c8d46e"
+electron@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-2.0.1.tgz#d9defcc187862143b9027378be78490eddbfabf4"
   dependencies:
     "@types/node" "^8.0.24"
     electron-download "^3.0.1"
