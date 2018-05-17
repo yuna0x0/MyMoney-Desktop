@@ -12,6 +12,10 @@ matrix:
       services: docker
       language: generic
 
+addons:
+  apt:
+    update: true
+
 cache:
   directories:
   - node_modules
