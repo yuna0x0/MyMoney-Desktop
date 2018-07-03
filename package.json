@@ -40,8 +40,8 @@
   "homepage": "https://mymoney.edisonlee55.com",
   "dependencies": {},
   "devDependencies": {
-    "electron": "^2.0.1",
-    "electron-builder": "^20.13.4"
+    "electron": "^2.0.3",
+    "electron-builder": "^20.18.0"
   },
   "build": {
     "appId": "com.edisonlee55.mymoney",
@@ -49,6 +49,24 @@
     "copyright": "Copyright © 2018 MING-CHIEN LEE",
     "mac": {
       "category": "public.app-category.finance"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "zip",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        },
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ]
     }
   }
 }
