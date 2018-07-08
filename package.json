@@ -40,8 +40,8 @@
   "homepage": "https://mymoney.edisonlee55.com",
   "dependencies": {},
   "devDependencies": {
-    "electron": "^2.0.3",
-    "electron-builder": "^20.18.0"
+    "electron": "^2.0.4",
+    "electron-builder": "^20.19.2"
   },
   "build": {
     "appId": "com.edisonlee55.mymoney",
