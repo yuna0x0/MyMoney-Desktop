@@ -50,7 +50,7 @@
     "mac": {
       "category": "public.app-category.finance",
       "provisioningProfile": "build/mac.provisionprofile",
-      "bundleVersion": "1.3.3",
+      "bundleVersion": "1.3.4",
       "target": [
         {
           "target": "dmg"
