@@ -8,7 +8,7 @@
     "start": "electron .",
     "pack": "electron-builder --dir",
     "dist": "electron-builder",
-    "release": "electron-builder --publish always -c snap.publish=github"
+    "release": "electron-builder --publish always -c.snap.publish=github"
   },
   "repository": {
     "type": "git",
