@@ -1,6 +1,6 @@
 {
   "name": "mymoney-desktop",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "A lightweight, simple accounting software with an easy interface and minimal functionality",
   "main": "index.js",
   "postinstall": "electron-builder install-app-deps",
@@ -40,22 +40,22 @@
   "homepage": "https://mymoney.edisonlee55.com",
   "dependencies": {},
   "devDependencies": {
-    "electron": "^6.0.9",
-    "electron-builder": "^21.2.0",
-    "electron-notarize": "^0.1.1"
+    "electron": "^8.0.1",
+    "electron-builder": "^22.3.2",
+    "electron-notarize": "^0.2.1"
   },
   "build": {
     "afterSign": "build/notarize.js",
     "appId": "com.edisonlee55.mymoneymac",
     "productName": "MyMoney",
-    "copyright": "Copyright © 2019 MING-CHIEN LEE",
+    "copyright": "Copyright © edisonlee55",
     "mac": {
       "hardenedRuntime": true,
       "category": "public.app-category.finance",
       "provisioningProfile": "build/mac.provisionprofile",
       "entitlements": "build/entitlements.mac.plist",
       "entitlementsInherit": "build/entitlements.mac.plist",
-      "bundleVersion": "1.4.2",
+      "bundleVersion": "1.4.3",
       "target": [
         {
           "target": "dmg"

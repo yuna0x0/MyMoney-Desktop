@@ -1,6 +1,6 @@
 /**
  * MyMoney - index.js (Electron)
- * Copyright (c) 2018 MING-CHIEN LEE
+ * Copyright (c) edisonlee55
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -90,9 +90,9 @@ if (process.platform === 'darwin') {
     template[1].submenu.push({
         type: 'separator'
     }, {
-            label: 'Bring All to Front',
-            role: 'front'
-        })
+        label: 'Bring All to Front',
+        role: 'front'
+    })
 }
 if (process.platform === 'win32') {
     const helpMenu = template[template.length - 1].submenu
